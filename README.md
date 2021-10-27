@@ -28,11 +28,11 @@ rm *.trimmed *.int_trimmed
 ```
 
 # Скриншоты и статистика из файлов multiQC
-## До подрезания
+## До подрезания [(полный отчет)](https://github.com/sashkent3/hse21_hw1/blob/main/multiqc/multiqc_report.html)
 ![GenStat](https://user-images.githubusercontent.com/33320473/139153418-7ba71d98-7478-427a-82a7-2c754ef2d304.png)
 ![SeqCnt](https://user-images.githubusercontent.com/33320473/139153427-24e42738-3995-42b3-95b6-f5c1cc2b09eb.png)
 ![SeqQual](https://user-images.githubusercontent.com/33320473/139153434-3211c2b1-de69-402c-ba0f-147b64e0bcc8.png)
-## После подрезания
+## После подрезания [(полный отчет)](https://github.com/sashkent3/hse21_hw1/blob/main/multiqc_trimmed/multiqc_report.html)
 ![GenStat](https://user-images.githubusercontent.com/33320473/139153501-4673ce41-13e8-4a9d-94a4-976a9f8de473.png)
 ![SeqCnt](https://user-images.githubusercontent.com/33320473/139153519-80a777a4-8a30-4668-9c4e-75310688b49f.png)
 ![SeqQual](https://user-images.githubusercontent.com/33320473/139153531-80cc6217-e602-442a-8aa2-46292517354c.png)
