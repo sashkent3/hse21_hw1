@@ -25,6 +25,9 @@ platanus scaffold -c out_contig.fa -IP1 oil_R1.fastq.trimmed oil_R2.fastq.trimme
 
 platanus gap_close -c out_scaffold.fa -IP1 oil_R1.fastq.trimmed oil_R2.fastq.trimmed -OP2 oilMP_S4_L001_R1_001.fastq.int_trimmed oilMP_S4_L001_R2_001.fastq.int_trimmed
 rm *.trimmed *.int_trimmed
+
+echo scaffold6_cov232 > longest_id.txt
+seqtk subseq out_gapClosed.fa longest_id.txt > longest.fasta
 ```
 
 # Скриншоты и статистика из файлов multiQC
